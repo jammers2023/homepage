@@ -19,7 +19,7 @@ module:
 ## Generic theme parameters:
 Params:
   author: "jammers2023"
-  description: "Osprey Delight: Example Site"
+  description: "NoName VR: for Gloval Game Jam 2023"
 
   # logoBig appears at the top of the page. Use a path relative to the assets dir for auto-resizing. 
   logoBig: "logoBig.png"
