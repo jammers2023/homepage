@@ -18,7 +18,7 @@ module:
 
 ## Generic theme parameters:
 Params:
-  author: "kdevo"
+  author: "jammers2023"
   description: "Osprey Delight: Example Site"
 
   # logoBig appears at the top of the page. Use a path relative to the assets dir for auto-resizing. 
@@ -52,7 +52,7 @@ Params:
   # enforceSinglePage will enforce redirection to the baseURL for all sub-directories/-pages.
   #   Example: If you create about.md, Hugo will also create a '/about/index.html' which might not be what you want for a *single* page site. 
   #   If this switch is enabled, all these "orphan" files will contain only a redirect directive.
-  enforceSinglePage: false
+  enforceSinglePage: true
 
   # copyright flag generates a copyright notice in footer of your site.
   copyright: true
