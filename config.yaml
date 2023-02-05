@@ -1,10 +1,10 @@
-title: "Osprey Delight Demo"
-baseURL: "https://example.com"
+title: "NoName VR"
+baseURL: "https://nonamevr.leprojet.ca"
 languageCode: "en-US"
 theme: "github.com/kdevo/osprey-delight/v5"
-tags: ["personal", "homepage", "portfolio"]
-#canonifyURLS: true
-#googleAnalytics: ""
+# tags: ["personal", "homepage", "portfolio"]
+# canonifyURLS: true
+# googleAnalytics: ""
 disableKinds: ["taxonomy", "taxonomyTerm"]
 enableEmoji: true
 pygmentsUseClasses: true
@@ -22,17 +22,17 @@ Params:
   description: "Osprey Delight: Example Site"
 
   # logoBig appears at the top of the page. Use a path relative to the assets dir for auto-resizing. 
-  logoBig: "osprey-delight.png"
+  logoBig: "logoBig.png"
 
   # logoSmall is the logo that will be shown in the left corner of the nav bar.
   #   Use a path relative to the assets dir for auto-resizing.
   logoSmall: "favicon.png"
   
   # background can optionally be specified as an image layer behind logoBig at the top of the page (parallax effect).
-  #background: "background.jpg"
+  background: "background.png"
   
   # opengraphImage specifies the image that is shown when previewing the site in a messenger or Google Search.
-  opengraphImage: "/images/osprey-delight.png"
+  opengraphImage: "background.png"
 
   # favicon of the site (e.g. smaller version of logoSmall).
   favicon: "favicon.png"
@@ -41,13 +41,13 @@ Params:
   #   - delight is the light version of osprey-delight
   #   - dedark is the dark version of "delight"
   #   - origin is the legacy version (similar to https://github.com/tomanistor/osprey)
-  theme: "delight"
+  theme: "dedark"
 
   # tagline (followed by a cursor) is shown at the top, below the logo
   #tagline: "Welcome!"
   # mdTagline can be used instead to specify the tagline in Markdown for more customizability.
   #   Note that {cursor} is a placeholder and will be replaced by the actual cursor HTML when rendering.
-  mdTagline: "# Welcome!\n ## This is Osprey Delight{cursor}"
+  mdTagline: "# Hello!\n ## We're `jammers` for Global Game Jam 2023{cursor}"
 
   # enforceSinglePage will enforce redirection to the baseURL for all sub-directories/-pages.
   #   Example: If you create about.md, Hugo will also create a '/about/index.html' which might not be what you want for a *single* page site. 
@@ -64,18 +64,18 @@ Params:
 ##   The type specifies the icon to use. For more information, see: 
 ##   https://github.com/kdevo/osprey-delight/blob/dev/CUSTOMIZING.md#icons
   Social:
-  - type: twitter # references the icon to use
-    url: ""
-  - type: linkedin 
-    url: ""
+    #  - type: twitter # references the icon to use
+    #    url: ""
+    #  - type: linkedin 
+    #    url: ""
   - type: github
-    url: "https://github.com/hugo-mods/"
-  - type: heart
-    url: "https://github.com/sponsors/kdevo"
-  - type: stackoverflow  
-    url: ""
-  - type: spotify
-    url: https://open.spotify.com/artist/5NhBOdJh6T1tgtM5Au1Opl
+    url: "https://github.com/jammers2023/homepage"
+    # - type: heart
+    # url: "https://github.com/sponsors/kdevo"
+    # - type: stackoverflow  
+    # url: ""
+    # - type: spotify
+    # url: https://open.spotify.com/artist/5NhBOdJh6T1tgtM5Au1Opl
 
 ## Additional theme features:
   Feat:
@@ -144,14 +144,14 @@ Menu:
       identifier: gallery
       url: "/#work"
       weight: 2
-    - name: "Blog"
-      identifier: blog
-      url: "/#blog"
-      weight: 3
-    - name: "Contact"
-      identifier: contact
-      url: "/#contact"
-      weight: 4
+      # - name: "Blog"
+      # identifier: blog
+      # url: "/#blog"
+      # weight: 3
+      # - name: "Contact"
+      # identifier: contact
+      # url: "/#contact"
+      # weight: 3
     # - name: ""
     #   # pre makes it possible to use arbitrary HTML before the name, e.g. referencing icons here is possible:
     #   pre: '<svg class="icon"><use xlink:href="#icon-external"/></svg>&nbsp;'
